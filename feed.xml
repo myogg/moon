@@ -1,5 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T13:06:41.255908+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-08-04T13:06:41.697133+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T13:23:52.441821+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/4</id><title>全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息</title><updated>2026-08-04T13:23:52.823470+00:00</updated><content type="html"><![CDATA[<p><img src="https://i.829259.xyz/api/rfile/d0fa8c9f-942e-4f80-84c2-8417ae066478.png" alt="d0fa8c9f-942e-4f80-84c2-8417ae066478.png" /></p>
+<p>Android 和 iOS 版 Telegram 已更新至版本 12.9，而 Telegram Desktop 已更新至版本 7.0。在 7 月的更新中，Telegram 带来了更多样化的文本格式选项、社区功能以及更多其他功能：</p>
+<p>• <a href="https://t.me/tginfocn/989">高级文本编辑器</a>：用户现在可以使用全新的全屏文本编辑器发送富文本消息。它包含许多样式选项：标题、表格、列表、引用、LaTeX 数学公式、代码块以及可展开的隐藏内容。它还允许用户在消息中间直接插入照片和视频，创建拼贴或轮播幻灯片。</p>
+<p>该编辑器位于 📎 附件 › 文章 选项下。或者，在移动端应用中，您可以点击“发送”按钮上方的 ↖ 图标。全屏编辑器允许用户发送最长 32,768 个字符的消息。</p>
+<p>全屏编辑器的多数主要功能<a href="https://t.me/betainfocn/1324">仅对 Premium 提供</a>，尽管全屏用户界面本身可以免费使用。</p>
+<p>• <a href="https://t.me/betainfocn/1319">社区</a>：组织社区，将相关主题的对话、频道甚至机器人聚集在一起。但是您不能添加大型对话：Telegram 对对话和频道数量有成员数限制。<a href="https://t.me/tginfocn">@tginfo</a> 编辑团队仍在研究此功能的限制。</p>
+<p>请注意，不要将社区与论坛混淆：每个群组和频道仍然是独立的，用户可以分别查看和加入每个社区。</p>
+<p>社区对话可以对所有成员可见，也可以隐藏为只有社区管理员和隐藏对话中的成员才可见。社区中的对话和频道可以合并为一个项目显示在对话列表中——每个社区成员可以自行控制此设置。</p>
+<p>• 机器人的阅后即焚消息：机器人和用户现在可以在群组中私下发送和回复消息——这些消息仅对特定的接收者和发送消息的机器人可见。阅后即焚的命令及其回复会显示一个特殊的 👁 带有斜线的眼睛图标。</p>
+<p>当命令为阅后即焚时，用户的初始消息对所有成员和机器人都完全不可见，这使得即使在公共场合也可以进行机密交互。此外，如果您从新设备登录您的帐户，这些消息将不可见。</p>
+<p>• 更新后的 GIF 搜索：GIF 面板现在可以使用 36 种语言搜索 3.5 亿个 GIF 动画。搜索引擎的运行依赖于 Telegram 使用内部 <a href="https://cocoon.org/">Cocoon</a> AI 项目对广泛共享的公开 GIF 动画进行索引。遗憾的是 Telegram 没有明确说明“公开可用”的具体含义。</p>
+<p>此更改是由于 Google 停止了对其 Tenor GIF 库的访问。Telegram 声称新的 GIF 搜索功能是私密的，不依赖于第三方服务，并且声称其速度比以前快得多。</p>
+<p>文章：<a href="http://telegram.org/blog/communities-editor-invisible-messages/">telegram.org/blog/communities-editor-invisible-messages/</a></p>
+<p>下载更新
+• Android：<a href="http://play.google.com/store/apps/details?id=org.telegram.messenger">Google Play</a>，从<a href="http://telegram.org/dl/android/apk">官方网站</a>或<a href="http://t.me/TAndroidAPK">认证频道</a>下载 APK。
+• iOS：<a href="http://itunes.apple.com/ru/app/telegram-messenger/id686449807?mt=8">App Store</a>。
+• Windows/macOS/Linux：<a href="https://desktop.telegram.org/">官方网站</a>或 <a href="https://github.com/telegramdesktop/tdesktop/releases">GitHub</a>。
+• Windows：<a href="https://apps.microsoft.com/detail/9nztwsqntd0s">Microsoft Store</a>。
+• Linux：<a href="https://telegram.org/dl/desktop/flatpak">Flathub</a>、<a href="https://telegram.org/dl/desktop/snap">Snapcraft</a>。</p>
+<p>#update #Android #iOS #Desktop</p>
+]]></content><link href="https://github.com/myogg/moon/issues/4"/><category term="技术文章"/><published>2026-08-04T13:23:23+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-08-04T13:23:52.988720+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
 <hr />
 <p>格式如下（请参考我下面的 comment）:
 冒号为中文冒号 ：</p>
@@ -9,9 +29,9 @@
 <ul>
 <li><input checked="" disabled="" type="checkbox"> added all</li>
 </ul>
-]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T13:06:41.929981+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
+]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T13:23:53.179244+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
 <p>Xi'an is an ancient city rich in historical heritage, and it's wonderful to live here.</p>
 <p>I love tinkering with things—blogs, forums, and all kinds of mobile apps...</p>
 <p>I'll be here to chat about life, or any other topics that interest me.</p>
-]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T13:06:42.183819+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T13:23:53.322531+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
 ]]></content><link href="https://github.com/myogg/moon/issues/1"/><category term="日记"/><published>2026-08-04T12:24:50+00:00</published></entry></feed>
