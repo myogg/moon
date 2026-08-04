@@ -1,1 +1,7 @@
-
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T12:51:31.792048+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T12:51:32.132466+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
+<p>Xi'an is an ancient city rich in historical heritage, and it's wonderful to live here.</p>
+<p>I love tinkering with things—blogs, forums, and all kinds of mobile apps...</p>
+<p>I'll be here to chat about life, or any other topics that interest me.</p>
+]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T12:51:32.327576+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/1"/><category term="日记"/><published>2026-08-04T12:24:50+00:00</published></entry></feed>
