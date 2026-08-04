@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T13:24:18.129077+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/4</id><title>全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息</title><updated>2026-08-04T13:24:18.715184+00:00</updated><content type="html"><![CDATA[<p><img src="https://i.829259.xyz/api/rfile/d0fa8c9f-942e-4f80-84c2-8417ae066478.png" alt="d0fa8c9f-942e-4f80-84c2-8417ae066478.png" /></p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T14:46:37.612623+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/5</id><title>预订您的 Cloudflare 钱包</title><updated>2026-08-04T14:46:37.931220+00:00</updated><content type="html"><![CDATA[<p><img src="https://i.829259.xyz/api/rfile/IMG_20260804_223746_864.jpg" alt="IMG_20260804_223746_864.jpg" /></p>
+<p>Cloudflare 推出全新支付产品 Cloudflare Pay，现已开放预订。</p>
+<p>用户现可通过官方网站 cloudflare.pay 进行预订，抢先体验这一全新的支付解决方案。具体功能细节及上线时间将在后续公布。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/5"/><category term="技术文章"/><published>2026-08-04T14:46:12+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/4</id><title>全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息</title><updated>2026-08-04T14:46:38.093805+00:00</updated><content type="html"><![CDATA[<p><img src="https://i.829259.xyz/api/rfile/d0fa8c9f-942e-4f80-84c2-8417ae066478.png" alt="d0fa8c9f-942e-4f80-84c2-8417ae066478.png" /></p>
 <p>Android 和 iOS 版 Telegram 已更新至版本 12.9，而 Telegram Desktop 已更新至版本 7.0。在 7 月的更新中，Telegram 带来了更多样化的文本格式选项、社区功能以及更多其他功能：</p>
 <p>• <a href="https://t.me/tginfocn/989">高级文本编辑器</a>：用户现在可以使用全新的全屏文本编辑器发送富文本消息。它包含许多样式选项：标题、表格、列表、引用、LaTeX 数学公式、代码块以及可展开的隐藏内容。它还允许用户在消息中间直接插入照片和视频，创建拼贴或轮播幻灯片。</p>
 <p>该编辑器位于 📎 附件 › 文章 选项下。或者，在移动端应用中，您可以点击“发送”按钮上方的 ↖ 图标。全屏编辑器允许用户发送最长 32,768 个字符的消息。</p>
@@ -18,7 +21,7 @@
 • Windows/macOS/Linux：<a href="https://desktop.telegram.org/">官方网站</a>或 <a href="https://github.com/telegramdesktop/tdesktop/releases">GitHub</a>。
 • Windows：<a href="https://apps.microsoft.com/detail/9nztwsqntd0s">Microsoft Store</a>。
 • Linux：<a href="https://telegram.org/dl/desktop/flatpak">Flathub</a>、<a href="https://telegram.org/dl/desktop/snap">Snapcraft</a>。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/4"/><category term="技术文章"/><published>2026-08-04T13:23:23+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-08-04T13:24:18.935870+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/4"/><category term="技术文章"/><published>2026-08-04T13:23:23+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-08-04T14:46:38.268791+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
 <hr />
 <p>格式如下（请参考我下面的 comment）:
 冒号为中文冒号 ：</p>
@@ -28,9 +31,9 @@
 <ul>
 <li><input checked="" disabled="" type="checkbox"> added all</li>
 </ul>
-]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T13:24:19.166021+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
+]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T14:46:38.521971+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
 <p>Xi'an is an ancient city rich in historical heritage, and it's wonderful to live here.</p>
 <p>I love tinkering with things—blogs, forums, and all kinds of mobile apps...</p>
 <p>I'll be here to chat about life, or any other topics that interest me.</p>
-]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T13:24:19.432855+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T14:46:38.681502+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
 ]]></content><link href="https://github.com/myogg/moon/issues/1"/><category term="日记"/><published>2026-08-04T12:24:50+00:00</published></entry></feed>
