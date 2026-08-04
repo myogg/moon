@@ -1,7 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T12:51:31.792048+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T12:51:32.132466+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-04T13:06:41.255908+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-08-04T13:06:41.697133+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
+<hr />
+<p>格式如下（请参考我下面的 comment）:
+冒号为中文冒号 ：</p>
+<p>名字：xxxxxx
+链接：xxxxxx
+描述：xxxxxx</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> added all</li>
+</ul>
+]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-04T13:06:41.929981+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
 <p>Xi'an is an ancient city rich in historical heritage, and it's wonderful to live here.</p>
 <p>I love tinkering with things—blogs, forums, and all kinds of mobile apps...</p>
 <p>I'll be here to chat about life, or any other topics that interest me.</p>
-]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T12:51:32.327576+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-04T13:06:42.183819+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
 ]]></content><link href="https://github.com/myogg/moon/issues/1"/><category term="日记"/><published>2026-08-04T12:24:50+00:00</published></entry></feed>
