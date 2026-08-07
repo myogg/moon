@@ -1,4 +1,4 @@
-base_url = "https://myogg.github.io/moon/"
+base_url = "https://msn.qzz.io/"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 theme = "even"
