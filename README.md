@@ -25,13 +25,14 @@ My personal blog([About Me](https://github.com/myogg/moon/issues/1) using issues
 
 
 ## 最近更新
+- [Cloudflare 推出可编程钱包](https://github.com/myogg/moon/issues/11)--2026-08-07
 - [今日立秋](https://github.com/myogg/moon/issues/10)--2026-08-07
 - [我是不是老了](https://github.com/myogg/moon/issues/7)--2026-08-06
 - [8月5号，西安中考补录最后一次机会](https://github.com/myogg/moon/issues/6)--2026-08-05
 - [预订您的 Cloudflare 钱包](https://github.com/myogg/moon/issues/5)--2026-08-04
-- [全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息](https://github.com/myogg/moon/issues/4)--2026-08-04
 ## 技术文章
 
+- [Cloudflare 推出可编程钱包](https://github.com/myogg/moon/issues/11)--2026-08-07
 - [预订您的 Cloudflare 钱包](https://github.com/myogg/moon/issues/5)--2026-08-04
 - [全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息](https://github.com/myogg/moon/issues/4)--2026-08-04
 ## 日记
