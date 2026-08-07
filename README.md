@@ -25,7 +25,7 @@ My personal blog([About Me](https://github.com/myogg/moon/issues/1) using issues
 
 
 ## 最近更新
-- [DeepSeek 2080 万美元入股宇树上海 IPO](https://github.com/myogg/moon/issues/9)--2026-08-06
+- [今日立秋](https://github.com/myogg/moon/issues/10)--2026-08-07
 - [我是不是老了](https://github.com/myogg/moon/issues/7)--2026-08-06
 - [8月5号，西安中考补录最后一次机会](https://github.com/myogg/moon/issues/6)--2026-08-05
 - [预订您的 Cloudflare 钱包](https://github.com/myogg/moon/issues/5)--2026-08-04
@@ -36,7 +36,7 @@ My personal blog([About Me](https://github.com/myogg/moon/issues/1) using issues
 - [全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息](https://github.com/myogg/moon/issues/4)--2026-08-04
 ## 日记
 
-- [DeepSeek 2080 万美元入股宇树上海 IPO](https://github.com/myogg/moon/issues/9)--2026-08-06
+- [今日立秋](https://github.com/myogg/moon/issues/10)--2026-08-07
 - [我是不是老了](https://github.com/myogg/moon/issues/7)--2026-08-06
 - [8月5号，西安中考补录最后一次机会](https://github.com/myogg/moon/issues/6)--2026-08-05
 - [2026年](https://github.com/myogg/moon/issues/1)--2026-08-04
