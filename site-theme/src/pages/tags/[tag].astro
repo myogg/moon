@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { tagSlug, withBase } from "../../lib/urls";
+
+export async function getStaticPaths() {
+  const issues = await getCollection("issues");
+  const tags = [...new Set(issues.flatMap((issue) => issue.data.tags))];
+  return tags.map((tag) => ({ params: { tag: tagSlug(tag) }, props: { tag, issues } }));
+}
+
+const { tag, issues } = Astro.props;
+const taggedIssues = issues
+  .filter((issue) => issue.data.tags.includes(tag))
+  .sort((a, b) => b.data.createdAt.valueOf() - a.data.createdAt.valueOf());
+---
+
+<Base title={tag} description={"Issues tagged " + tag}>
+  <section class="taxonomy">
+    <h1 class="taxonomies__title">{tag}</h1>
+    {taggedIssues.map((issue) => (
+      <div class="taxonomy__item">
+        <time class="taxonomy__item__time" datetime={issue.data.createdAt.toISOString()}>{issue.data.createdAt.toISOString().slice(0, 10)}</time>
+        <span class="taxonomy__item__title"><a href={withBase("issue-" + issue.data.number + "/")}>{issue.data.title}</a></span>
+      </div>
+    ))}
+  </section>
+</Base>
