@@ -1,0 +1,13 @@
+---
+import { getCollection } from "astro:content";
+import PostList from "../components/PostList.astro";
+import Base from "../layouts/Base.astro";
+import { PAGE_SIZE } from "../lib/site";
+
+const allIssues = (await getCollection("issues")).sort(
+  (a, b) => b.data.createdAt.valueOf() - a.data.createdAt.valueOf(),
+);
+const pageCount = Math.ceil(allIssues.length / PAGE_SIZE);
+---
+
+<Base><PostList issues={allIssues.slice(0, PAGE_SIZE)} page={1} pageCount={pageCount} /></Base>
