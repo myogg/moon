@@ -1,0 +1,67 @@
+version: 2
+project_name: isite
+builds:
+  - env:
+      - CGO_ENABLED=0
+    id: isite
+    main: cmd/isite/main.go
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+    goarm:
+      - "7"
+    flags:
+      - -trimpath
+    ldflags:
+      - -s -w
+      - -X github.com/kemingy/isite/pkg/version.gitTag={{ .Tag }}
+      - -X github.com/kemingy/isite/pkg/version.buildDate={{ .Date }}
+      - -X github.com/kemingy/isite/pkg/version.gitCommit={{ .Commit }}
+
+archives:
+  - name_template: >-
+      {{- .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}
+    format_overrides:
+      - goos: windows
+        formats: ["zip"]
+    builds_info:
+      group: root
+      owner: root
+    files:
+      - README.md
+      - LICENSE
+
+changelog:
+  use: github
+  sort: asc
+  groups:
+    - title: 'Exciting New Features 🎉'
+      regexp: "^.*feat.*"
+      order: 0
+    - title: 'Bug Fix 🛠'
+      regexp: "^.*(Fix|fix|bug).*"
+      order: 1
+    - title: 'Refactor 🏗️'
+      regexp: "^.*refact.*"
+      order: 2
+    - title: 'Documentation 🖊️'
+      regexp: "^.*docs.*"
+      order: 3
+    - title: 'Others:'
+      order: 999
+
+dockers_v2:
+  - id: isite
+    images:
+      - "ghcr.io/kemingy/isite"
+    dockerfile: .github/releaser.Dockerfile
+    tags:
+      - "{{ .Version }}"
+    ids: ["isite"]
+    platforms:
+      - linux/amd64
+      - linux/arm64

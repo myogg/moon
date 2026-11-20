@@ -48,23 +48,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-      - name: Checkout isite fork
-        uses: actions/checkout@v7
-        with:
-          repository: yihong0618/isite
-          ref: 123a35e42fcd68b3c128c59b9a38b6ba91219533
-          path: .isite
       - name: Set up Go
         uses: actions/setup-go@v7
         with:
-          go-version-file: .isite/go.mod
-          cache-dependency-path: .isite/go.sum
+          go-version-file: generator/go.mod
+          cache-dependency-path: generator/go.sum
       - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
           node-version: 22
-      - name: Build isite
-        working-directory: .isite
+      - name: Build repository-owned isite
+        working-directory: generator
         run: |
           go build -trimpath -o "$RUNNER_TEMP/isite" ./cmd/isite
       - name: Generate Astro site
