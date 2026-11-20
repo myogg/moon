@@ -56,3 +56,10 @@ jobs:
           npm run build --prefix output
           test -s output/dist/index.html
           test -s output/dist/rss.xml
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: moon-local-theme-preview-${{ github.run_number }}
+          path: output/dist/
+          if-no-files-found: error
+          retention-days: 3
