@@ -25,7 +25,7 @@ const pageTitle = title === SITE_TITLE ? title : title + " | " + SITE_TITLE;
   <body>
     <div class="container">
       <header id="header">
-        <a class="logo" href={withBase("")} aria-label={SITE_TITLE}></a>
+        <a class="logo" href={withBase("")} aria-label={SITE_TITLE}>{SITE_TITLE}</a>
         <nav class="menu" aria-label="Main navigation">
           <ul>{MENU.map((item) => <li><a href={withBase(item.url)}>{item.name}</a></li>)}</ul>
         </nav>
