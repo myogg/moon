@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-11-20T13:56:34.232388+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/13</id><title>我有歌，你有故事吗！</title><updated>2026-11-20T13:56:34.673061+00:00</updated><content type="html"><![CDATA[<p>我有歌，你有故事吗？</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-11-20T16:15:00.575959+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/14</id><title>macOS 版 Telegram 新增隐藏对话功能</title><updated>2026-11-20T16:15:01.018583+00:00</updated><content type="html"><![CDATA[<img width="2560" height="1602" alt="IMG_20261121_001300_378" src="https://github.com/user-attachments/assets/cdcd548d-facc-43cc-bfc5-24a888212e54" />
+<p>在 macOS 版 Telegram 13.2 (283584) Beta 版本中，出现了一项名为”隐藏的对话 (Hidden Chats)“的实验性功能，允许用户通过秘密短语隐藏对话。</p>
+<p>启用该功能需要在“隐私与安全”→“隐藏的对话 (Hidden Chats)”中设置一个至少包含 8 个字符的短语。此后，只需在 Telegram 搜索栏中输入该短语，即可打开一个独立的隐藏对话空间。</p>
+<p>隐藏的对话将从常规对话列表、文件夹、搜索结果和通知中消失，来自这些对话参与者的来电也会被自动拒接。用户可以使用不同的秘密短语创建多个隐藏空间。</p>
+<p>当 Mac 屏幕锁定、电脑进入睡眠状态，或连续五分钟没有任何操作时，隐藏空间会自动关闭。用户也可以通过快捷键 ⌘L 手动关闭。</p>
+<p>对该版本的进一步研究发现，Telegram 修改了有关秘密短语丢失的警告。现在，Telegram 明确指出，即使退出账号并重新登录，也无法恢复对隐藏空间的访问权限。</p>
+<p>安全限制</p>
+<p>该功能仅在设置它的 Mac 上生效。在其他设备上，对话仍然会以普通方式显示。</p>
+<p>此外，这种隐藏机制可能通过 Telegram Web 的自动登录功能绕过。从已解锁的 Telegram 客户端中点击指向网页版的链接时，浏览器可能会自动登录账号，无需知道秘密短语即可访问所有对话。早在 2023 年，@tginfo 就介绍过这种自动登录机制的相关特性。</p>
+<p>因此，“隐藏的对话”应被视为一种防止他人窥视对话的方式，而非完整的账号安全防护机制。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/14"/><category term="技术文章"/><published>2026-11-20T16:14:41+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/13</id><title>我有歌，你有故事吗！</title><updated>2026-11-20T16:15:01.228436+00:00</updated><content type="html"><![CDATA[<p>我有歌，你有故事吗？</p>
 <p>有时候，我觉得歌单是一个很奇妙的东西。</p>
 <p>它不像日记，不需要每天记录；也不像相册，不需要刻意保存某个瞬间。只要喜欢，便把一首歌收藏起来，日积月累，手机里就有了几十首、几百首，甚至上千首歌。</p>
 <p>今天整理歌单，看到一张手写的歌曲清单。</p>
@@ -25,11 +35,11 @@
 <p>让音乐响起来，让心安静下来。</p>
 <p>如果你也有一份自己的歌单，不妨拿出来看看。也许某一首歌，就藏着一段只有你自己知道的往事。</p>
 <p>我有歌，你有故事吗？</p>
-]]></content><link href="https://github.com/myogg/moon/issues/13"/><category term="日记"/><published>2026-11-20T13:56:10+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/7</id><title>我是不是老了</title><updated>2026-11-20T13:56:34.896716+00:00</updated><content type="html"><![CDATA[<p>昨天下班回家上了六层步梯，就头晕大汗，饭都没吃在床上躺了一个半小时才缓过来。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/13"/><category term="日记"/><published>2026-11-20T13:56:10+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/7</id><title>我是不是老了</title><updated>2026-11-20T16:15:01.418987+00:00</updated><content type="html"><![CDATA[<p>昨天下班回家上了六层步梯，就头晕大汗，饭都没吃在床上躺了一个半小时才缓过来。</p>
 <p>当时想的太多了，心脏有问题？头部有问题？房贷还没有还完。</p>
 <p>后来想了一下，下午上班出力太大，活又着急，太紧张导致的。身体是自己的，如果倒了可没人管，以后一定要张弛有度。</p>
 <p>说明：本人体力工作者。不是网上看到的每个人都在空调房里悠闲的工作。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/7"/><category term="日记"/><published>2026-08-06T12:26:29+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-11-20T13:56:35.111288+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/7"/><category term="日记"/><published>2026-08-06T12:26:29+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-11-20T16:15:01.592773+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
 <hr />
 <p>格式如下（请参考我下面的 comment）:
 冒号为中文冒号 ：</p>

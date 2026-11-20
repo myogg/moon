@@ -25,9 +25,13 @@ My personal blog([About Me](https://github.com/myogg/moon/issues/1) using issues
 
 
 ## 最近更新
+- [macOS 版 Telegram 新增隐藏对话功能](https://github.com/myogg/moon/issues/14)--2026-11-20
 - [我有歌，你有故事吗！](https://github.com/myogg/moon/issues/13)--2026-11-20
 - [我是不是老了](https://github.com/myogg/moon/issues/7)--2026-08-06
 - [友情链接](https://github.com/myogg/moon/issues/3)--2026-08-04
+## 技术文章
+
+- [macOS 版 Telegram 新增隐藏对话功能](https://github.com/myogg/moon/issues/14)--2026-11-20
 ## 日记
 
 - [我有歌，你有故事吗！](https://github.com/myogg/moon/issues/13)--2026-11-20
