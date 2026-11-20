@@ -1,0 +1,42 @@
+---
+import "../styles/global.css";
+import { FEED, MENU, SITE_DESCRIPTION, SITE_TITLE } from "../lib/site";
+import { withBase } from "../lib/urls";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
+const pageTitle = title === SITE_TITLE ? title : title + " | " + SITE_TITLE;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    {FEED && <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={withBase("rss.xml")} />}
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <a class="logo" href={withBase("")} aria-label={SITE_TITLE}></a>
+        <nav class="menu" aria-label="Main navigation">
+          <ul>{MENU.map((item) => <li><a href={withBase(item.url)}>{item.name}</a></li>)}</ul>
+        </nav>
+        <details class="mobile-menu">
+          <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
+          <nav aria-label="Mobile navigation">
+            <ul>{MENU.map((item) => <li><a href={withBase(item.url)}>{item.name}</a></li>)}</ul>
+          </nav>
+        </details>
+      </header>
+      <main><div class="content"><slot /></div></main>
+    </div>
+  </body>
+</html>
