@@ -1,0 +1,58 @@
+name: Test repository-owned Astro theme
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO_OWNER: ${{ github.repository_owner }}
+      REPOSITORY_NAME: ${{ github.event.repository.name }}
+      BASE_URL: https://msn.qzz.io
+    steps:
+      - name: Checkout test branch
+        uses: actions/checkout@v7
+      - name: Checkout pinned isite generator
+        uses: actions/checkout@v7
+        with:
+          repository: yihong0618/isite
+          ref: 123a35e42fcd68b3c128c59b9a38b6ba91219533
+          path: .isite
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version-file: .isite/go.mod
+          cache-dependency-path: .isite/go.sum
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Build isite generator
+        working-directory: .isite
+        run: go build -trimpath -o "$RUNNER_TEMP/isite" ./cmd/isite
+      - name: Generate site content
+        run: |
+          "$RUNNER_TEMP/isite" generate \
+            --engine astro \
+            --user "$REPO_OWNER" \
+            --repo "$REPOSITORY_NAME" \
+            --output output \
+            --config config.toml \
+            --base-url "$BASE_URL" \
+            --feed
+      - name: Apply repository-owned theme
+        run: |
+          test -d output/src
+          cp -a site-theme/src/. output/src/
+      - name: Build Astro site
+        run: |
+          npm install --prefix output --no-audit --no-fund
+          npm run build --prefix output
+          test -s output/dist/index.html
+          test -s output/dist/rss.xml
