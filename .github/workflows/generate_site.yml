@@ -77,8 +77,15 @@ jobs:
             --config config.toml \
             --base-url "$BASE_URL" \
             --feed
+      - name: Apply repository-owned Astro theme
+        run: |
+          test -d output/src
+          cp -a site-theme/src/. output/src/
+      - name: Build Astro site
+        run: |
           npm install --prefix output --no-audit --no-fund
           npm run build --prefix output
+          test -s output/dist/index.html
           test -s output/dist/rss.xml
       - name: Setup Pages
         uses: actions/configure-pages@v6
