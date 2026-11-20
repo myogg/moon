@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { tagSlug, withBase } from "../../lib/urls";
+
+const issues = await getCollection("issues");
+const tags = [...new Set(issues.flatMap((issue) => issue.data.tags))].sort((a, b) => a.localeCompare(b));
+---
+
+<Base title="Tags" description="Browse issues by GitHub label">
+  <section class="taxonomies">
+    <h1 class="taxonomies__title">Tags</h1>
+    <div class="taxonomies__items">
+      {tags.length === 0 ? <p class="empty">No labels were found.</p> : tags.map((tag) => {
+        const count = issues.filter((issue) => issue.data.tags.includes(tag)).length;
+        return <a href={withBase("tags/" + tagSlug(tag) + "/")}>{tag}<span class="count">{count}</span></a>;
+      })}
+    </div>
+  </section>
+</Base>
