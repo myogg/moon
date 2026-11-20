@@ -1,0 +1,34 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { withBase } from "../lib/urls";
+
+interface Props {
+  issues: CollectionEntry<"issues">[];
+  page: number;
+  pageCount: number;
+}
+
+const { issues, page, pageCount } = Astro.props;
+const pageURL = (number: number) => number === 1 ? withBase("") : withBase("page/" + number + "/");
+---
+
+<div class="posts">
+  {issues.length === 0 ? <p class="empty">No issues matched the selected filters.</p> : issues.map((issue) => (
+    <article class="post post-list-item">
+      <header class="post__header">
+        <h1 class="post__title"><a href={withBase("issue-" + issue.data.number + "/")}>{issue.data.title}</a></h1>
+        <div class="post__meta">
+          <time datetime={issue.data.createdAt.toISOString()}>{issue.data.createdAt.toISOString().slice(0, 10)}</time>
+          <span class="post__source"><a href={issue.data.issueUrl}>read the source issue</a></span>
+        </div>
+      </header>
+      <div class="read-more"><a href={withBase("issue-" + issue.data.number + "/")}>Read more...</a></div>
+    </article>
+  ))}
+</div>
+{pageCount > 1 && (
+  <nav class="pagination" aria-label="Pagination">
+    {page > 1 && <a class="previous" href={pageURL(page - 1)}>‹ Newer</a>}
+    {page < pageCount && <a class="next" href={pageURL(page + 1)}>Older ›</a>}
+  </nav>
+)}
