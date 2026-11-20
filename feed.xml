@@ -1,53 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-08-28T12:33:32.766343+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/12</id><title>Telegram 宣布已申请 .gram 顶级域名</title><updated>2026-08-28T12:33:33.277516+00:00</updated><content type="html"><![CDATA[<p>即时通讯平台 Telegram创始人帕维尔·杜罗夫昨晚在其官方频道发文表示， Telegram 平台已申请.gram顶级域名。</p>
-<p>如果该申请获得互联网名称与数字地址分配机构批准，十亿Telegram用户即可获得专属的二级域名。</p>
-<p>例如@durov将获得durov.gram，而@monk将获得monk.gram。</p>
-<p>杜罗夫表示，用户只需输入一条提示词，就能建立由 Telegram 托管的交互式网站。</p>
-<p>—— <a href="https://t.me/durov/543">帕维尔·杜罗夫</a></p>
-<p>💎 Telegram has applied for the .gram domain zone.</p>
-<p>If the application is approved by ICANN, a billion Telegram users could get their own second-level domains.</p>
-<p>🖥 For example, @durov would get durov.gram, and @monk would get  monk.gram. </p>
-<p>Users would be able to set up their interactive websites hosted by Telegram — just by typing one prompt ✨</p>
-]]></content><link href="https://github.com/myogg/moon/issues/12"/><category term="日记"/><published>2026-08-19T14:02:24+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/11</id><title>Cloudflare 推出可编程钱包</title><updated>2026-08-28T12:33:33.497910+00:00</updated><content type="html"><![CDATA[<p>在 AI 时代，智能体（Agent）想要尝试新的 API 或付费内容并不容易。它们既没有稳定的身份去注册，也无法像人类一样直接绑定信用卡，这大大限制了“智能体商业”的发展。</p>
-<p>为了解决这一痛点，Cloudflare 宣布推出 Cloudflare Wallets，为 AI 智能体提供原生的支付与身份验证方案。</p>
-<p>核心设计与功能：</p>
-<p>•   双层钱包架构：
-•   账户钱包 (Account Wallets)：由人类账号所有者管理，负责资金充值与规则制定。
-•   虚拟钱包 (Virtual Wallets)：分配给 AI 智能体使用。人类可以为其设置“零花钱”限额、白名单和单次交易上限，让 AI 在可控风险内自主测试不同的 API 服务。
-•   微支付支持：结合 Monetization Gateway，钱包利用 x402 协议实现了将支付信息直接附加在 HTTP 请求中，极大地简化了机器对机器的交易流程。
-•   可读的智能体身份：用户可以为自己的账户申领 cloudflare.pay 域名。AI 智能体在访问服务时，可以通过如 research.example.cloudflare.pay 这样的可读标识公开身份，便于商家提供试用额度或进行白名单管理。</p>
-<p>Cloudflare Wallets 的推出，意味着未来互联网将迎来一个专为 AI 设计的、无缝的“机器原生”交易市场。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/11"/><category term="技术文章"/><published>2026-08-07T12:49:18+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/10</id><title>今日立秋</title><updated>2026-08-28T12:33:33.746553+00:00</updated><content type="html"><![CDATA[<p>“立秋”是二十四节气中的第十三个节气，也是秋天的第一个节气。当太阳到达黄经135°时，意味着夏天的结束，</p>
-<p>秋天的开始。立秋时节气温逐渐下降，秋风渐起，秋雨频繁，农作物开始成熟。</p>
-<p>秋天是万物收敛聚集的季节，是丰收的季节。此时，我国中部地区早稻开始收割，晚稻开始种植，秋季作物进入重要生长发育时期。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/10"/><category term="日记"/><published>2026-08-07T01:26:46+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/7</id><title>我是不是老了</title><updated>2026-08-28T12:33:34.003386+00:00</updated><content type="html"><![CDATA[<p>昨天下班回家上了六层步梯，就头晕大汗，饭都没吃在床上躺了一个半小时才缓过来。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/myogg/moon</id><title>RSS feed of myogg's moon</title><updated>2026-11-20T13:56:34.232388+00:00</updated><link href="https://github.com/myogg/moon"/><link href="https://raw.githubusercontent.com/myogg/moon/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/myogg/moon/issues/13</id><title>我有歌，你有故事吗！</title><updated>2026-11-20T13:56:34.673061+00:00</updated><content type="html"><![CDATA[<p>我有歌，你有故事吗？</p>
+<p>有时候，我觉得歌单是一个很奇妙的东西。</p>
+<p>它不像日记，不需要每天记录；也不像相册，不需要刻意保存某个瞬间。只要喜欢，便把一首歌收藏起来，日积月累，手机里就有了几十首、几百首，甚至上千首歌。</p>
+<p>今天整理歌单，看到一张手写的歌曲清单。</p>
+<p>《破碎的梦》《随缘》《风中的诺言》《迷失的爱》《吴哥窟》《深夜港湾》《天长地久》《情缘尽散》《春风秋雨》《十年人间》《莫问归期》《沈园外》《广寒宫》《一笑江湖》《大鱼》《清明上河图》……</p>
+<p>一首接着一首，写在纸上，字迹有些潦草，却有一种说不出来的亲切感。</p>
+<p>看着这些歌名，忽然觉得，每一首歌似乎都藏着一个故事。</p>
+<p>有些歌，听的是旋律。</p>
+<p>前奏刚刚响起，熟悉的感觉便迎面而来。也许正在走路，也许坐在窗边，也许只是一个普通的夜晚，音乐却能把人的思绪带到很远的地方。</p>
+<p>有些歌，听的是歌词。</p>
+<p>年轻的时候，不太懂歌词里的离别与遗憾，只觉得旋律好听。等到经历了一些事情，再回头听，才发现那些曾经一带而过的句子，竟然慢慢有了自己的影子。</p>
+<p>还有一些歌，听的是岁月。</p>
+<p>一首歌可能陪伴过一段感情，一段旅程，也可能只是陪我们度过了无数个平凡的日子。后来，人和事都变了，唯独那段旋律还在。</p>
+<p>我一直觉得，音乐是有记忆的。</p>
+<p>它不问你经历过什么，也不需要你解释为什么喜欢。只要按下播放键，那些被时间藏起来的情绪，就会悄悄浮现。</p>
+<p>人到了一定年纪，喜欢的东西也在慢慢变化。</p>
+<p>不再刻意追逐流行，也不再在意别人觉得哪首歌好听。喜欢就是喜欢，哪怕是一首很多年前的老歌，哪怕听了几十遍，依然愿意单曲循环。</p>
+<p>有时候，一首歌听着听着，就想起了从前。</p>
+<p>想起年轻时的自己，想起曾经一起听歌的人，想起那些没有来得及说出口的话。只是如今再听，心里少了一些冲动，多了一份平静。</p>
+<p>其实，我们收藏的哪里只是歌曲？</p>
+<p>收藏的是曾经的自己，是那些走过的路，是那些遇见过的人，也是那些再也回不去的时光。</p>
+<p>生活总是忙忙碌碌，上班、下班，吃饭、睡觉，日子一天天过去。偶尔给自己留一点时间，戴上耳机，听几首喜欢的歌，也是一种难得的享受。</p>
+<p>不必追问过去，也不必感慨未来。</p>
+<p>让音乐响起来，让心安静下来。</p>
+<p>如果你也有一份自己的歌单，不妨拿出来看看。也许某一首歌，就藏着一段只有你自己知道的往事。</p>
+<p>我有歌，你有故事吗？</p>
+]]></content><link href="https://github.com/myogg/moon/issues/13"/><category term="日记"/><published>2026-11-20T13:56:10+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/7</id><title>我是不是老了</title><updated>2026-11-20T13:56:34.896716+00:00</updated><content type="html"><![CDATA[<p>昨天下班回家上了六层步梯，就头晕大汗，饭都没吃在床上躺了一个半小时才缓过来。</p>
 <p>当时想的太多了，心脏有问题？头部有问题？房贷还没有还完。</p>
 <p>后来想了一下，下午上班出力太大，活又着急，太紧张导致的。身体是自己的，如果倒了可没人管，以后一定要张弛有度。</p>
 <p>说明：本人体力工作者。不是网上看到的每个人都在空调房里悠闲的工作。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/7"/><category term="日记"/><published>2026-08-06T12:26:29+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/6</id><title>8月5号，西安中考补录最后一次机会</title><updated>2026-08-28T12:33:34.232721+00:00</updated><content type="html"><![CDATA[<p>今天是西安综合高中班最后一次补录的机会，当然，补录的都是民办考生，学费贵的很。最贵的一学期8万，最便宜的一学期5000。</p>
-<p>问题是有些网红还在给那些贵的学校洗地。说贵有贵的道理。说去学校看了游泳池什么的，住的好，吃的好。问题是你要学习学生去干啥？是学习去了吗？还是去玩去了？</p>
-<p>人呀。操心好当下的事不好。小学你就操心小升初，初中操心中考，高中你就操心高考。不要想的太远，这个社会变得太快。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/6"/><category term="日记"/><published>2026-08-05T01:19:13+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/5</id><title>预订您的 Cloudflare 钱包</title><updated>2026-08-28T12:33:34.477290+00:00</updated><content type="html"><![CDATA[<p>Cloudflare 推出全新支付产品 Cloudflare Pay，现已开放预订。</p>
-<p>用户现可通过官方网站 cloudflare.pay 进行预订，抢先体验这一全新的支付解决方案。具体功能细节及上线时间将在后续公布。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/5"/><category term="技术文章"/><published>2026-08-04T14:46:12+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/4</id><title>全屏富文本编辑器、社区、新的 GIF 搜索功能以及阅后即焚消息</title><updated>2026-08-28T12:33:34.724317+00:00</updated><content type="html"><![CDATA[<p>Android 和 iOS 版 Telegram 已更新至版本 12.9，而 Telegram Desktop 已更新至版本 7.0。在 7 月的更新中，Telegram 带来了更多样化的文本格式选项、社区功能以及更多其他功能：</p>
-<p>• <a href="https://t.me/tginfocn/989">高级文本编辑器</a>：用户现在可以使用全新的全屏文本编辑器发送富文本消息。它包含许多样式选项：标题、表格、列表、引用、LaTeX 数学公式、代码块以及可展开的隐藏内容。它还允许用户在消息中间直接插入照片和视频，创建拼贴或轮播幻灯片。</p>
-<p>该编辑器位于 📎 附件 › 文章 选项下。或者，在移动端应用中，您可以点击“发送”按钮上方的 ↖ 图标。全屏编辑器允许用户发送最长 32,768 个字符的消息。</p>
-<p>全屏编辑器的多数主要功能<a href="https://t.me/betainfocn/1324">仅对 Premium 提供</a>，尽管全屏用户界面本身可以免费使用。</p>
-<p>• <a href="https://t.me/betainfocn/1319">社区</a>：组织社区，将相关主题的对话、频道甚至机器人聚集在一起。但是您不能添加大型对话：Telegram 对对话和频道数量有成员数限制。<a href="https://t.me/tginfocn">@tginfo</a> 编辑团队仍在研究此功能的限制。</p>
-<p>请注意，不要将社区与论坛混淆：每个群组和频道仍然是独立的，用户可以分别查看和加入每个社区。</p>
-<p>社区对话可以对所有成员可见，也可以隐藏为只有社区管理员和隐藏对话中的成员才可见。社区中的对话和频道可以合并为一个项目显示在对话列表中——每个社区成员可以自行控制此设置。</p>
-<p>• 机器人的阅后即焚消息：机器人和用户现在可以在群组中私下发送和回复消息——这些消息仅对特定的接收者和发送消息的机器人可见。阅后即焚的命令及其回复会显示一个特殊的 👁 带有斜线的眼睛图标。</p>
-<p>当命令为阅后即焚时，用户的初始消息对所有成员和机器人都完全不可见，这使得即使在公共场合也可以进行机密交互。此外，如果您从新设备登录您的帐户，这些消息将不可见。</p>
-<p>• 更新后的 GIF 搜索：GIF 面板现在可以使用 36 种语言搜索 3.5 亿个 GIF 动画。搜索引擎的运行依赖于 Telegram 使用内部 <a href="https://cocoon.org/">Cocoon</a> AI 项目对广泛共享的公开 GIF 动画进行索引。遗憾的是 Telegram 没有明确说明“公开可用”的具体含义。</p>
-<p>此更改是由于 Google 停止了对其 Tenor GIF 库的访问。Telegram 声称新的 GIF 搜索功能是私密的，不依赖于第三方服务，并且声称其速度比以前快得多。</p>
-<p>文章：<a href="http://telegram.org/blog/communities-editor-invisible-messages/">telegram.org/blog/communities-editor-invisible-messages/</a></p>
-<p>下载更新
-• Android：<a href="http://play.google.com/store/apps/details?id=org.telegram.messenger">Google Play</a>，从<a href="http://telegram.org/dl/android/apk">官方网站</a>或<a href="http://t.me/TAndroidAPK">认证频道</a>下载 APK。
-• iOS：<a href="http://itunes.apple.com/ru/app/telegram-messenger/id686449807?mt=8">App Store</a>。
-• Windows/macOS/Linux：<a href="https://desktop.telegram.org/">官方网站</a>或 <a href="https://github.com/telegramdesktop/tdesktop/releases">GitHub</a>。
-• Windows：<a href="https://apps.microsoft.com/detail/9nztwsqntd0s">Microsoft Store</a>。
-• Linux：<a href="https://telegram.org/dl/desktop/flatpak">Flathub</a>、<a href="https://telegram.org/dl/desktop/snap">Snapcraft</a>。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/4"/><category term="技术文章"/><published>2026-08-04T13:23:23+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-08-28T12:33:34.990990+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
+]]></content><link href="https://github.com/myogg/moon/issues/7"/><category term="日记"/><published>2026-08-06T12:26:29+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/3</id><title>友情链接</title><updated>2026-11-20T13:56:35.111288+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 是友情链接的 Issue, 如果你想加到友情链接里，请在这条 Issue 上评论，我打心后会自动加到友情链接里。感谢大家。</p>
 <hr />
 <p>格式如下（请参考我下面的 comment）:
 冒号为中文冒号 ：</p>
@@ -57,9 +39,4 @@
 <ul>
 <li><input checked="" disabled="" type="checkbox"> added all</li>
 </ul>
-]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/2</id><title>Hello, I'm Jss</title><updated>2026-08-28T12:33:35.217736+00:00</updated><content type="html"><![CDATA[<p>I'm an ordinary person living in Xi'an, and I don't really know how to do anything special.</p>
-<p>Xi'an is an ancient city rich in historical heritage, and it's wonderful to live here.</p>
-<p>I love tinkering with things—blogs, forums, and all kinds of mobile apps...</p>
-<p>I'll be here to chat about life, or any other topics that interest me.</p>
-]]></content><link href="https://github.com/myogg/moon/issues/2"/><category term="About"/><published>2026-08-04T12:51:11+00:00</published></entry><entry><id>https://github.com/myogg/moon/issues/1</id><title>2026年</title><updated>2026-08-28T12:33:35.480751+00:00</updated><content type="html"><![CDATA[<p>删除了再建，建完了又删，一念永恒。</p>
-]]></content><link href="https://github.com/myogg/moon/issues/1"/><category term="日记"/><published>2026-08-04T12:24:50+00:00</published></entry></feed>
+]]></content><link href="https://github.com/myogg/moon/issues/3"/><category term="Friends"/><published>2026-08-04T13:06:05+00:00</published></entry></feed>
