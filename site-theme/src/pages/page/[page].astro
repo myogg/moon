@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import PostList from "../../components/PostList.astro";
+import Base from "../../layouts/Base.astro";
+import { PAGE_SIZE } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const issues = (await getCollection("issues")).sort(
+    (a, b) => b.data.createdAt.valueOf() - a.data.createdAt.valueOf(),
+  );
+  const pageCount = Math.ceil(issues.length / PAGE_SIZE);
+  return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => {
+    const page = index + 2;
+    return {
+      params: { page: page.toString() },
+      props: { issues: issues.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE), page, pageCount },
+    };
+  });
+}
+
+const { issues, page, pageCount } = Astro.props;
+---
+
+<Base title={"Page " + page}><PostList issues={issues} page={page} pageCount={pageCount} /></Base>
