@@ -1,0 +1,94 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { tagSlug, withBase } from "../lib/urls";
+
+export async function getStaticPaths() {
+  const issues = (await getCollection("issues")).sort(
+    (a, b) => b.data.createdAt.valueOf() - a.data.createdAt.valueOf(),
+  );
+  return issues.map((issue, index) => ({
+    params: { number: issue.data.number.toString() },
+    props: {
+      issue,
+      newer: index > 0 ? issues[index - 1] : null,
+      older: index < issues.length - 1 ? issues[index + 1] : null,
+    },
+  }));
+}
+
+interface Props {
+  issue: CollectionEntry<"issues">;
+  newer: CollectionEntry<"issues"> | null;
+  older: CollectionEntry<"issues"> | null;
+}
+
+const { issue, newer, older } = Astro.props;
+const { Content } = await render(issue);
+const avatarURL = (value: string) => {
+  const url = new URL(value);
+  if (url.hostname === "avatars.githubusercontent.com") url.searchParams.set("s", "64");
+  return url.href;
+};
+const reactions = [
+  ["👍", issue.data.reactions.thumbsUp],
+  ["👎", issue.data.reactions.thumbsDown],
+  ["😄", issue.data.reactions.laugh],
+  ["🎉", issue.data.reactions.hooray],
+  ["😕", issue.data.reactions.confused],
+  ["❤️", issue.data.reactions.heart],
+  ["🚀", issue.data.reactions.rocket],
+  ["👀", issue.data.reactions.eyes],
+] as const;
+---
+
+<Base title={issue.data.title} description={issue.data.description}>
+  <article class="post post-detail">
+    <header class="post__header">
+      <h1 class="post__title">{issue.data.title}</h1>
+      <div class="post__meta">
+        <time datetime={issue.data.createdAt.toISOString()}>{issue.data.createdAt.toISOString().slice(0, 10)}</time>
+        <span class="post__source"><a href={issue.data.issueUrl}>read the source issue</a></span>
+      </div>
+    </header>
+
+    <div class="post__body"><Content /></div>
+
+    {reactions.some(([, count]) => count > 0) && (
+      <div class="post-reactions" aria-label="Reactions">
+        {reactions.filter(([, count]) => count > 0).map(([emoji, count]) => (
+          <span class="reaction-emoji">{emoji} <span class="reaction-count">{count}</span></span>
+        ))}
+      </div>
+    )}
+
+    {issue.data.comments.length > 0 && (
+      <section class="post-comments" aria-label="Comments">
+        {issue.data.comments.map((comment) => (
+          <article class="comment-item">
+            <div class="comment-author">
+              <img src={avatarURL(comment.authorAvatar)} alt="" width="64" height="64" loading="lazy" decoding="async" />
+              <strong>{comment.authorName}</strong>
+              <a class="comment-date" href={comment.url}>
+                <time datetime={comment.updatedAt.toISOString()}>{comment.updatedAt.toISOString().slice(0, 10)}</time>
+              </a>
+            </div>
+            <p class="comment-content">{comment.content}</p>
+          </article>
+        ))}
+      </section>
+    )}
+
+    <footer class="post-footer">
+      {issue.data.tags.length > 0 && (
+        <div class="post-tags">
+          {issue.data.tags.map((tag) => <a href={withBase("tags/" + tagSlug(tag) + "/")}>#{tag}</a>)}
+        </div>
+      )}
+      <nav class="post-nav" aria-label="Adjacent posts">
+        {newer && <a class="previous" href={withBase("issue-" + newer.data.number + "/")}>‹ {newer.data.title}</a>}
+        {older && <a class="next" href={withBase("issue-" + older.data.number + "/")}>{older.data.title} ›</a>}
+      </nav>
+    </footer>
+  </article>
+</Base>
